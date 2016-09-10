@@ -32,3 +32,4 @@ tss:x:59:59:Account used by the trousers package to sandbox the tcsd daemon:/dev
 tcpdump:x:72:72::/:/sbin/nologin
 admin:x:1000:1000:admin:/home/admin:/bin/bash
 apache:x:48:48:Apache:/usr/share/httpd:/sbin/nologin
+memcached:x:991:986:Memcached daemon:/run/memcached:/sbin/nologin

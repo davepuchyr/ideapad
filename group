@@ -54,3 +54,4 @@ tcpdump:x:72:
 admin:x:1000:
 apache:x:48:
 memcached:x:986:
+mysql:x:27:
