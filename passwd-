@@ -33,3 +33,7 @@ tcpdump:x:72:72::/:/sbin/nologin
 admin:x:1000:1000:admin:/home/admin:/bin/bash
 apache:x:48:48:Apache:/usr/share/httpd:/sbin/nologin
 memcached:x:991:986:Memcached daemon:/run/memcached:/sbin/nologin
+mysql:x:27:27:Percona Server:/var/lib/mysql:/bin/false
+uupfa:x:1001:1001:UUP Financial Analytics Inc.:/home/uupfa:/bin/bash
+saco:x:1002:1002:Saco:/home/saco:/bin/bash
+dave:x:500:500:Dave Puchyr:/home/dave:/bin/bash
