@@ -74,3 +74,27 @@ done
 
 unset i
 unset -f pathmunge
+
+# dmjp
+export EDITOR=vim
+export BROWSER=google-chrome
+# dmjp: appengine maxs out at jdk7 as of 2014.08.12 export JAVA_HOME=/usr/java/latest
+#export JAVA_HOME=/usr/java/jdk1.7.0_79
+#export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.65-3.b17.fc21.x86_64/
+#export PATH=$PATH:/opt/crosstool-ng/bin:/opt/gradle/bin:/opt/android-sdk-linux/platform-tools:/opt/android-sdk-linux/tools:/opt/activator
+
+# dmjp: http://www.r-tutor.com/gpu-computing/cuda-installation/cuda7.5-fc21
+#export CUDA_HOME=/usr/local/cuda-7.5
+#export LD_LIBRARY_PATH=${CUDA_HOME}/lib64
+
+#PATH=${CUDA_HOME}/bin:${PATH}
+#export PATH
+
+export TEST_DB_PANDA_USER=dave
+export TEST_DB_PANDA_PORT=3306
+export TEST_DB_PANDA_PASSWORD=quickcash
+export TEST_DB_PANDA_DATABASE=cppconn_test
+export TEST_DB_PANDA_HOST=localhost
+export TEST_IB_HOST=localhost
+export TEST_IB_PORT=7496
+
