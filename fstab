@@ -6,7 +6,7 @@
 # Accessible filesystems, by reference, are maintained under '/dev/disk'
 # See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info
 #
-UUID=078a9df9-d204-4bb1-943b-3b00a02f5aae /                       ext4    defaults        1 1
-UUID=265a6f85-d980-455b-b6b8-01f4e04a08b4 /boot                   ext2    defaults        1 2
-/dev/sdb1                                 /var/lib/mysql          ext4    defaults,noatime 0 0
+UUID=078a9df9-d204-4bb1-943b-3b00a02f5aae /                       ext4    defaults,noatime 1 1
+UUID=265a6f85-d980-455b-b6b8-01f4e04a08b4 /boot                   ext2    defaults,noatime 1 2
+/dev/sdb1                                 /var/lib/mysql          xfs     defaults,noatime 0 0
 
