@@ -58,3 +58,5 @@ mysql:x:27:
 uupfa:x:1001:dave,saco
 saco:x:1002:
 dave:x:500:
+cgred:x:499:
+setroubleshoot:x:498:

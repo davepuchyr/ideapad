@@ -19,5 +19,6 @@ tss:1214112:65536
 tcpdump:1279648:65536
 admin:1345184:65536
 apache:1410720:65536
-# empty default subuid/subgid file
 memcached:1476256:65536
+# empty default subuid/subgid file
+mysql:1541792:65536
