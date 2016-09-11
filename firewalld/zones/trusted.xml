@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<zone target="ACCEPT">
+  <short>Trusted</short>
+  <description>All network connections are accepted.</description>
+  <source ipset="ipset"/>
+  <service name="https"/>
+  <service name="synergy"/>
+  <service name="vnc-server"/>
+  <service name="http"/>
+  <service name="mysql"/>
+  <service name="nfs"/>
+</zone>
