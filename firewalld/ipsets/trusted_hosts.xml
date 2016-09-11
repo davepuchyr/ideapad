@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ipset type="hash:ip">
+  <short>trusted hosts</short>
+  <description>trusted hosts</description>
+  <entry>192.188.183.71</entry><!-- cool -->
+  <entry>81.36.58.190</entry><!-- bcn -->
+  <entry>173.77.200.42</entry><!-- fios -->
+  <entry>95.211.131.137</entry><!-- nld -->
+  <entry>66.222.222.84</entry><!-- telus -->
+</ipset>
+
