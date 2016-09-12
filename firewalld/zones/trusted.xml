@@ -2,12 +2,13 @@
 <zone target="ACCEPT">
   <short>Trusted</short>
   <description>All network connections are accepted.</description>
-  <source ipset="trusted_subnets"/>
   <source ipset="trusted_hosts"/>
-  <service name="https"/>
-  <service name="http"/>
-  <service name="synergy"/>
-  <service name="vnc-server"/>
-  <service name="mysql"/>
+  <source ipset="trusted_subnets"/>
   <service name="nfs"/>
+  <service name="vnc-server"/>
+  <service name="https"/>
+  <service name="squid"/>
+  <service name="mysql"/>
+  <service name="synergy"/>
+  <service name="http"/>
 </zone>
